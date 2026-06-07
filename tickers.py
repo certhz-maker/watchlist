@@ -1,3 +1,4 @@
+
     TICKERS = [
         # --- posizioni in carico ---
         "AMPG", "CPSH", "OPEN", "RDW", 
