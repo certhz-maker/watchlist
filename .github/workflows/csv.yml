@@ -1,0 +1,28 @@
+name: CSV watchlist
+
+on:
+  workflow_dispatch:          # bottone manuale dal telefono
+  schedule:
+    - cron: '0 21 * * 1-5'    # 21:00 UTC, lun-ven
+
+permissions:
+  contents: write             # serve per il commit dei CSV
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install yfinance pandas
+      - run: python export_daily_yfinance.py
+      - run: python export_60m_yfinance.py
+      - name: commit csv
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add daily.csv 60m.csv
+          git commit -m "csv $(date -u +%F)" || echo "nessuna modifica"
+          git push
