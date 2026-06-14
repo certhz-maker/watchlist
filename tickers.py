@@ -1,5 +1,5 @@
 TICKERS = [
-    # --- posizioni long che vorrie a sconto---
+    # --- posizioni long che vorrei a sconto ---
     "AMPG", "CPSH", "OPEN", "RDW",
     # --- vari ---
     "BBAI", "IREN", "CIFR", "NXDR",
@@ -8,8 +8,7 @@ TICKERS = [
     # --- uranio ---
     "OKLO", "SMR", "UUUU",
     # --- quantum ---
-    "LAES", "IONQ", "QBTS", "ARQQ",”QUBT”,”QSI”,”ATOM”,
+    "LAES", "IONQ", "QBTS", "ARQQ", "QUBT", "QSI", "ATOM",
     # --- tecnologici ---
-    "AMD", "MRVL", "PLTR", "NVDA",”SPCX”,”POET”,”RCAT”,”IOT”,”MARA”,”RIOT”,”BLDP”,”FCEL”,”SBET”,
-
+    "AMD", "MRVL", "PLTR", "NVDA", "SPCX", "POET", "RCAT", "IOT", "MARA", "RIOT", "BLDP", "FCEL", "SBET",
 ]
