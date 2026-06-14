@@ -1,5 +1,5 @@
 TICKERS = [
-    # --- posizioni in carico ---
+    # --- posizioni long che vorrie a sconto---
     "AMPG", "CPSH", "OPEN", "RDW",
     # --- vari ---
     "BBAI", "IREN", "CIFR", "NXDR",
@@ -8,8 +8,8 @@ TICKERS = [
     # --- uranio ---
     "OKLO", "SMR", "UUUU",
     # --- quantum ---
-    "LAES", "IONQ", "QBTS", "ARQQ",
-    # --- tec ---
-    "AMD", "MRVL", "PLTR", "NVDA",
-    # "POET",   # CONGELATO (gate class action)
+    "LAES", "IONQ", "QBTS", "ARQQ",”QUBT”,”QSI”,”ATOM”,
+    # --- tecnologici ---
+    "AMD", "MRVL", "PLTR", "NVDA",”SPCX”,”POET”,”RCAT”,”IOT”,”MARA”,”RIOT”,”BLDP”,”FCEL”,”SBET”,
+
 ]
