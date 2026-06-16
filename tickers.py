@@ -6,7 +6,7 @@ TICKERS = [
     # --- spazio ---
     "ASTS", "FLY", "PL", "SIDU", "BKSY", "SATL", "SPIR", "VOYG", "VELO", "MNTS",
     # --- uranio ---
-    "OKLO", "SMR", "UUUU", "JOBY", "ACHR",
+    "OKLO", "SMR", "UUUU", "JOBY", "ACHR","UAVS",
     # --- quantum ---
     "LAES", "IONQ", "QBTS", "ARQQ", "QUBT", "QSI", "ATOM",
     # --- tecnologici ---
