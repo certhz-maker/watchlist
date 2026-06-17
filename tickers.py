@@ -10,5 +10,5 @@ TICKERS = [
     # --- quantum ---
     "LAES", "IONQ", "QBTS", "ARQQ", "QUBT", "QSI", "ATOM",
     # --- tecnologici ---
-    "AMD", "MRVL", "PLTR", "NVDA", "SPCX", "POET", "RCAT", "IOT", "MARA", "RIOT", "BLDP", "FCEL", "SBET",
+    "AMD", "MRVL", "HIMX", "NVDA", "SPCX", "POET", "RCAT", "IOT", "MARA", "RIOT", "BLDP", "FCEL", "SBET",
 ]
