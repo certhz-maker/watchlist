@@ -2,7 +2,7 @@ TICKERS = [
     # --- posizioni long che vorrei a sconto ---
     "AMPG", "CPSH", "OPEN", "RDW",
     # --- vari ---
-    "BBAI", "IREN", "CIFR", "NXDR", "FLNC",  "HURC",  "CRGY", "HRMY", "SATL", 
+    "BBAI", "IREN", "CIFR", "NXDR", "FLNC",  "HURC",  "CRGY", "HRMY", "SATL",  "WYFI", 
     # --- spazio ---
     "ASTS", "FLY", "PL", "SIDU", "BKSY", "SATL", "SPIR", "VOYG", "VELO", "MNTS",
     # --- uranio ---
